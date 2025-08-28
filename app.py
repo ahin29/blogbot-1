@@ -49,7 +49,7 @@ if prompt := st.chat_input("Ask about blog topics, SEO keywords, or request cont
                 # Use the medical blog creation prompt
                 response = client.responses.create(
                     prompt={
-                        "id": "pmpt_68b0581784d88197ab4ce500a74d64ed03c4a45",
+                        "id": "pmpt_68b0581784d88197ab4ce500a74d64ed03c4a458ed97a713",
                         "version": "2"
                     },
                     input=conversation_context
